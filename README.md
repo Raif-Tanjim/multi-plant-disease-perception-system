@@ -46,6 +46,8 @@ Due to size limitations, the full dataset is not included in this repository.
 <img width="1556" height="1190" alt="image" src="https://github.com/user-attachments/assets/7d24f790-0638-42b0-814f-245bed62a6fc" />
 
 ---
+> Most failure cases were not due to model limitations, but due to variability in real-world conditions such as lighting, background noise, and image quality.
+This suggests that improving real-world performance requires system-level improvements (data quality, preprocessing, and robustness), not just better models.
 
 ### Pipeline
 - Image preprocessing and normalization  
@@ -63,6 +65,7 @@ Due to size limitations, the full dataset is not included in this repository.
 ---
 
 ## Results & Insights
+
 - CNN significantly outperforms ANN in visual classification tasks  
 - Model accuracy alone is not sufficient — robustness is critical  
 - Performance degrades when conditions deviate from training data  
@@ -84,7 +87,11 @@ Real-world deployment requires systems that handle noise, variability, and unsee
 Model files and full datasets are not included to keep the repository lightweight and focused on implementation.
 
 ---
-
+## Limitations
+- Performance depends heavily on dataset quality  
+- Limited evaluation in uncontrolled real-world environments  
+- No real-time deployment validation
+---
 ## Future Work
 - Improve robustness under real-world conditions  
 - Explore multi-modal sensing (beyond RGB images)  
