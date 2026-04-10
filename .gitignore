@@ -1,0 +1,25 @@
+# Data
+*.zip
+*.csv
+
+# Images (if large dataset)
+*.jpg
+*.png
+*.tiff
+# Models
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Logs
+*.json
+
+# Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
