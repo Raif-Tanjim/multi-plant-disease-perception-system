@@ -38,10 +38,12 @@ Due to size limitations, the full dataset is not included in this repository.
 - **ANN (Baseline)**  
   - Used for comparison  
   - Limited spatial feature extraction  
+<img width="1542" height="1166" alt="image" src="https://github.com/user-attachments/assets/f41f2e67-ef90-45dc-9b0b-d37e3e0bf689" />
 
 - **CNN (Primary Model)**  
   - Captures spatial patterns in leaf images  
   - More suitable for visual perception tasks  
+<img width="1556" height="1190" alt="image" src="https://github.com/user-attachments/assets/7d24f790-0638-42b0-814f-245bed62a6fc" />
 
 ---
 
